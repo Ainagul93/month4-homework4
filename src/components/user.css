@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(15, 18, 45, 0.94);
+}
+.Main_Block{
+    width: min-content;
+    margin: 180px auto 0px;
+    background: #5f6bd3;
+    padding: 60px;
+    border-radius: 50px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+form input{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: black;
+}
+.Text p {
+    font-family: Long Cang;
+    font-size: 30px;
+    color: #c9d7dc;
+
+}
+.Text{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.btn{
+    width: 80px;
+    border-radius: 7px;
+    background: white;
+    border: none;
+    color: black;
+    padding: 2px;
+}
+.Section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 30px;
+}
+.Section span{
+    font-family: "Long Cang";
+    font-weight: 400;
+    font-size: 20px;
+}
